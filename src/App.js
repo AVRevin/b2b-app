@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Dashboard from './containers/Dashboard'
+import "./styles/styles.css"
 
-function App() {
+
+const database = [
+  {
+    id:164,
+    userName:"Alex",
+    nameOfPlan:"Бесплатный доступ",
+    status:true,
+    description:"Бесплатный план, чтобы попробовать «Наименование программы»",
+    price:0,
+    helper:"",
+    teamQuantity:"",
+    functional:"Ограниченный доступ"
+  },
+  {
+    id:134,
+    userName:"Alex",
+    nameOfPlan:"Лицензия на пользователя",
+    status:false,
+    description:"Самый популярный план",
+    price:1350,
+    helper:"выгодно",
+    teamQuantity:"",
+    functional:"Полный доступ"
+  },
+];
+
+const App = () => {
+  const tariffList = database;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Dashboard tariffList={tariffList}/>
     </div>
-  );
+  )
 }
 
-export default App;
+
+export default App 

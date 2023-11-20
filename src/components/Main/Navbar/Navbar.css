@@ -1,0 +1,39 @@
+.nav {
+  background-color: #F5F6FF;
+}
+
+.nav ul {
+  position: relative;
+  top: 5.353rem;
+  width: 34.398rem;
+  height: 1.752rem;
+  left:1.766rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+.nav ul li{
+  font-family: 'InterRegular';
+  text-decoration: none;
+}
+
+.navbarItemInActive{
+  text-decoration: none;
+  font-size:0.875rem;
+  line-height: 0.875rem;
+  color:#222834;
+  font-weight:500;
+  padding-bottom: 0.2rem;
+}
+
+.navbarItemActive {
+  text-decoration: none;
+  font-size:0.875rem;
+  line-height: 0.875rem;
+  padding-bottom: 0.2rem;
+  font-weight:700;
+  color:#3339CD;
+  border-bottom: 1px #3339CD solid;
+}
+

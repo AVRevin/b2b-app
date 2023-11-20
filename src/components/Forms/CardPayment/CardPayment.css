@@ -1,0 +1,19 @@
+.card{
+    width: 30rem;
+    height: 15rem;
+}
+.container{
+    height:100%;
+    padding: 0.5rem;
+}
+.row{
+    height: 50%;  
+}
+.row1{
+    border-bottom: 2px;
+    border-bottom-color: rgb(161, 169, 184, 0.3);
+    padding: 0.5rem;
+}
+.row2{
+    padding: 0.5rem;
+}

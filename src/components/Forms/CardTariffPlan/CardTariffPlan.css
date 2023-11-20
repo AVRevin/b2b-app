@@ -1,0 +1,151 @@
+.cardTariffPlan{
+    position: relative;
+    width: 46rem;
+    height: 14.5rem;  
+    border-radius: 0.375rem;
+    padding: 1.25rem 0 1.25rem 0;
+    gap:1.5rem;
+    background-color: white;
+    font-family: 'InterRegular';
+}
+.upperPartCard{
+    padding: 0;
+    height: 70%;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(161,168,155,0.3);
+}
+.upperInformation{
+    display:flex;
+    justify-content: space-between;
+    height: 3rem;
+}
+.nameOfPlanBlue{
+    color: #3339CD;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1rem;
+    padding: 1rem;
+}
+.nameOfPlanBlack{
+    color: #222834;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+.status{
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 50px;
+    line-height: 1.5rem;
+    background-color:#EDEEFF;
+    margin: 0.75rem 0 0.75rem 0;
+    text-align: center;
+    padding: 0 0.75rem 0 0.75rem;
+    color: #3339CD;
+}
+.upperInformationName{
+    display: block;
+    width: 100%;       
+}
+.upperInformationNameStatus{
+    display: flex;
+}
+.description{
+    padding: 0 1rem 0 1rem;
+    color:#A1A9B8;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.price{
+    position: relative;
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color:#3339CD;
+    height: 4rem;
+    width: 20rem;
+    justify-content: right;
+}
+.priceAmount{
+    margin: 0.5rem 0 0.5rem 0;
+}
+.priceMonth{
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    margin: 20px 5px 20px 0px;
+    color:#A1A9B8;
+}
+
+.lowerInformation{
+   
+    padding: 3rem 1rem 3rem 1rem;
+}
+.lowerInformationMore{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    margin: 1.2rem 0 1.2rem 0;
+}
+
+.team{
+    margin: auto;
+    align-items: center;
+    color:#A1A9B8;
+}
+.labelTeam{
+    margin: auto;
+    align-items: center;
+    color:#222834;
+    font-family: 'InterBold';
+}
+.functional{
+    margin: auto;
+    align-items: center;
+}
+.labelFunctional{
+    margin: auto;
+    align-items: center;
+}
+
+.lowerPartCard{
+    width: 25rem;
+    height: 2rem;
+    display: flex;
+    margin: 1.75rem 1.75rem 1.75rem auto;
+}
+.btnAboutPlan{
+    width: 10rem;
+    height: 2rem;
+    color: #3339CD;
+    border-radius:4px;
+    font-size: 14px;
+    font-weight: 400;
+    align-items: center;
+    margin: auto;
+    font-family: 'InterRegular';
+    border-color: rgb(161,169,184,0.3);
+}
+.img[alt='Arrow']{
+    margin: auto;
+}
+.btnAddUser{
+    background-color: #3339CD;
+    border-color: #3339CD;
+    color: #FFFFFF;
+    border-radius:4px;
+    padding: 0 12px 0 12px;
+    font-size: 14px;
+    line-height:12px ;
+    width: 14rem;
+    height: 2rem;
+    align-items: center;
+    margin: auto;
+    font-family: 'InterRegular';
+}
