@@ -8,12 +8,7 @@
     background-color: white;
     font-family: 'InterRegular';
 }
-.upperPartCard{
-    padding: 0;
-    height: 70%;
-    border-bottom: 1px solid;
-    border-bottom-color: rgba(161,168,155,0.3);
-}
+
 .upperInformation{
     display:flex;
     justify-content: space-between;
@@ -59,7 +54,6 @@
     font-weight: 400;
     line-height: 1.2rem;
 }
-
 .price{
     position: relative;
     display: flex;
@@ -105,13 +99,16 @@
     color:#222834;
     font-family: 'InterBold';
 }
-.functional{
+.functional{color:#222834;
+    font-family: 'InterBold';
     margin: auto;
     align-items: center;
 }
 .labelFunctional{
     margin: auto;
     align-items: center;
+    color:#222834;
+    font-family: 'InterBold';
 }
 
 .lowerPartCard{
@@ -130,10 +127,6 @@
     align-items: center;
     margin: auto;
     font-family: 'InterRegular';
-    border-color: rgb(161,169,184,0.3);
-}
-.img[alt='Arrow']{
-    margin: auto;
 }
 .btnAddUser{
     background-color: #3339CD;

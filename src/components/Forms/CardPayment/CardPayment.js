@@ -2,9 +2,8 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
-
+import ButtonClear from '../../UI/Buttons/ButtonClear'
 
 
 import Mir from './../../../assets/images/mir.svg'
@@ -20,10 +19,10 @@ const CardPayment = () => {
         <Card>
             <Container>
                 <Row className="row1">
-                    <Col>Способ оплаты</Col>
-                    <Col><Button>+ Добавить способ оплаты</Button></Col>
+                    <Col><h4 style={{padding:'0.5rem'}}>Способ оплаты</h4></Col>
+                    <Col><ButtonClear>+ Добавить способ оплаты</ButtonClear></Col>
                 </Row>
-                <Row className="row2">
+                <Row className="row2" >
                     <Col><Card.Img src={Mir}/></Col>
                     <Col><Card.Img src={MasterCard}/></Col>
                     <Col><Card.Img src={Visa}/></Col>
