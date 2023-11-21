@@ -9,11 +9,25 @@
     font-family: 'InterRegular';
 }
 
+.upperPartCard{
+    height: 70%;
+}
+
+.lowerPartCard{
+    width: 25rem;
+    display: flex;
+    margin: 1.75rem 1.75rem 1.75rem auto;
+}
+
 .upperInformation{
     display:flex;
     justify-content: space-between;
-    height: 3rem;
 }
+
+.lowerInformation{
+    padding: 0rem 1rem 0rem 1rem;
+}
+
 .nameOfPlanBlue{
     color: #3339CD;
     font-size: 1rem;
@@ -28,7 +42,7 @@
     line-height: 1rem;
 }
 .status{
-    width: 4rem;
+    width: 6rem;
     height: 1.5rem;
     font-size: 0.75rem;
     font-weight: 600;
@@ -76,10 +90,7 @@
     color:#A1A9B8;
 }
 
-.lowerInformation{
-   
-    padding: 3rem 1rem 3rem 1rem;
-}
+
 .lowerInformationMore{
     display: flex;
     flex-direction: row;
@@ -90,33 +101,23 @@
 
 .team{
     margin: auto;
-    align-items: center;
     color:#A1A9B8;
 }
 .labelTeam{
     margin: auto;
-    align-items: center;
     color:#222834;
     font-family: 'InterBold';
 }
-.functional{color:#222834;
-    font-family: 'InterBold';
+.functional{
+    color:#A1A9B8;
     margin: auto;
-    align-items: center;
 }
 .labelFunctional{
     margin: auto;
-    align-items: center;
     color:#222834;
     font-family: 'InterBold';
 }
 
-.lowerPartCard{
-    width: 25rem;
-    height: 2rem;
-    display: flex;
-    margin: 1.75rem 1.75rem 1.75rem auto;
-}
 .btnAboutPlan{
     width: 10rem;
     height: 2rem;
@@ -127,6 +128,7 @@
     align-items: center;
     margin: auto;
     font-family: 'InterRegular';
+    background-color: #FFFFFF;
 }
 .btnAddUser{
     background-color: #3339CD;

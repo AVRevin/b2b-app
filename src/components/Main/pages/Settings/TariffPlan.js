@@ -2,7 +2,6 @@ import React from 'react'
 import SettingsPages from '../../../UI/SettingsPages'
 import CardTariffPlan from '../../../Forms/CardTariffPlan/CardTariffPlan'
 import CardPayment from '../../../Forms/CardPayment/CardPayment'
-import CardTarifPlan from '../../../Forms/CardTarifPlan/CardTarifPlan'
 
 
 const TariffPlan = (props) => {
