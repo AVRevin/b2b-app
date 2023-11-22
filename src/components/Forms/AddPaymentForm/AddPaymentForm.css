@@ -1,17 +1,24 @@
-.addpaymentform{
-    height: 100vh;
-    width: 100vh;
-    background-color: rgba((0), 0, 0, 0.4);
+.form{
     position: fixed;
-    top:0;
-    left:0;
-    align-items:center;
-    justify-content: center;
-    transform: scale(0);
+    padding: 1rem;
+    top: 50%;
+    left: 50%;
+    background-color: #FFFFFF;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1s;
+    transform: translate(-50%, -50%);
 }
 
-.addpaymentform.active{
-    transform:scale(1);
+.form.active{
+    opacity:1;
+    pointer-events: all;
+}
+.h3{
+    margin: 1.5rem 0 1.5rem 0;
+}
+.form-control{
+  
 }
 
 

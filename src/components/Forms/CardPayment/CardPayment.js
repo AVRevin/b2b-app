@@ -15,10 +15,10 @@ import UnionPay from './../../../assets/images/unionpay.svg'
 import './CardPayment.css'
 
 
-const CardPayment = ({active, setActive}) => {
-
+const CardPayment = () => {
+    const [modalActive, setModalActive] = useState(false)
     return (
-        <Card className={active ? "card active" : "card"} onClick={()=>setActive(false)}>
+        <Card>
             <Container>
                 <Row className="row1">
                     <Col><h4 style={{padding:'0.5rem'}}>Способ оплаты</h4></Col>
@@ -31,7 +31,7 @@ const CardPayment = ({active, setActive}) => {
                     <Col><Card.Img src={UnionPay}/></Col>
                 </Row>
             </Container>
-            <AddPaymentForm active={false} setActive={setModalActive}/>
+            <AddPaymentForm active={modalActive} setActive={setModalActive}/>
         </Card>
     )
 }

@@ -7,7 +7,6 @@ import Arrow from './../../../assets/images/arrow.svg'
 
 
 const CardTariffPlan = (props) => {
-  console.log(props.tariffList);
   return (
     <div className='cardTariffPlan'>
       <div className='upperPartCard'>
