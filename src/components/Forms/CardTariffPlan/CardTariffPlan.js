@@ -1,4 +1,7 @@
 import React from 'react'
+import ButtonClear from '../../UI/Buttons/ButtonClear'
+import ButtonBlue from '../../UI/Buttons/ButtonBlue'
+
 import './CardTariffPlan.css'
 
 import Team from './../../../assets/images/team.svg'
@@ -43,8 +46,8 @@ const CardTariffPlan = (props) => {
         </div>
       </div>
       <div className='lowerPartCard'>
-        <button className='btnAboutPlan'>Больше о плане <img src={Arrow} alt='Arrow'/></button>
-        <button className='btnAddUser'>Добавить пользователей</button>
+        <ButtonClear>Больше о плане <img src={Arrow} alt='Arrow'/></ButtonClear>
+        <ButtonBlue>Добавить пользователей</ButtonBlue>
       </div>
     </div>
   )

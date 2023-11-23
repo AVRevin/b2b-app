@@ -1,6 +1,26 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    opacity: 0;
+    pointer-events: none;
+}
+.modal.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
 .form{
     position: fixed;
     padding: 1rem;
+    border-radius: 5%;
     top: 50%;
     left: 50%;
     background-color: #FFFFFF;
@@ -14,9 +34,7 @@
     opacity:1;
     pointer-events: all;
 }
-.h3{
-    margin: 1.5rem 0 1.5rem 0;
-}
+
 .form-control{
   
 }

@@ -118,18 +118,6 @@
     font-family: 'InterBold';
 }
 
-.btnAboutPlan{
-    width: 10rem;
-    height: 2rem;
-    color: #3339CD;
-    border-radius:4px;
-    font-size: 14px;
-    font-weight: 400;
-    align-items: center;
-    margin: auto;
-    font-family: 'InterRegular';
-    background-color: #FFFFFF;
-}
 .btnAddUser{
     background-color: #3339CD;
     border-color: #3339CD;

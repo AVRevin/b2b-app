@@ -9,7 +9,7 @@ const TariffPlan = (props) => {
   return (
     <SettingsPages>
         <CardTariffPlan tariffList={props.tariffList}/>
-        <h3>Платежи и способы оплаты</h3>
+        <h3 style={{ marginTop: '3rem', marginBottom:'1.5rem'}}>Платежи и способы оплаты</h3>
         <CardPayment/>
       </SettingsPages>
   )
