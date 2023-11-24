@@ -35,9 +35,13 @@
     pointer-events: all;
 }
 
-.form-control{
-  
+#iconsPayment {
+    background: url('./../../../assets/images/iconsPayment.svg') no-repeat left;
+    background-position:95%;
+    background-repeat: no-repeat;
 }
-
-
-
+#cvc{
+    background: url('./../../../assets/images/iconCVV.svg') no-repeat left;
+    background-position:95%;
+    background-repeat: no-repeat;
+}
