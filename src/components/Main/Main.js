@@ -16,7 +16,7 @@ const Main = (props) => {
     let component
     switch (window.location.pathname) {
         case "/":
-            component = <TariffPlan tariffList = {props.tariffList[0]}/>
+            component = <TariffPlan tariffList = {props.tariffList}/>
             break;
         case "/languages":
             component = <Languages />
@@ -28,7 +28,7 @@ const Main = (props) => {
             component = <Profile />
             break;
         case "/tariffplan":
-            component = <TariffPlan tariffList = {props.tariffList[0]}/>
+            component = <TariffPlan tariffList = {props.tariffList}/>
             break;
         case "/users":
             component = <Users />
